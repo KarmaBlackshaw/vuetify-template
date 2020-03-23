@@ -14,6 +14,7 @@
           alt="Logo"
           class="logo"
         >
+        <!-- height="45px" -->
       </v-toolbar-title>
 
       <v-spacer />
@@ -61,7 +62,7 @@
           :key="key"
         >
           <!-- eslint-disable-next-line vue/valid-v-on -->
-          <v-list-item v-if="!item.subItems" @click="">
+          <v-list-item v-if="!item.subItems" link>
             <v-list-item-action>
               <v-icon>mdi-{{ item.icon }}</v-icon>
             </v-list-item-action>

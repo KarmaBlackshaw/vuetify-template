@@ -4,7 +4,7 @@
 
     <v-content>
       <v-container fluid>
-        asdasd
+        <router-view />
       </v-container>
     </v-content>
   </v-app>
@@ -22,6 +22,6 @@ export default {
 
 <style lang="scss">
 html {
-  overflow-y: auto;
+  overflow-y: auto!important;
 }
 </style>
